@@ -1,0 +1,54 @@
+{
+  "temas": {
+    "higiene": {
+      "produtos": [
+        "fraldas",
+        "lenços umedecidos",
+        "shampoo",
+        "sabão líquido",
+        "creme para assaduras"
+      ],
+      "imagem": "../../higiene.png"
+    },
+    "quarto": {
+      "produtos": [
+        "lençol",
+        "guarda-roupas",
+        "berço",
+        "almofadas",
+        "decoração de parede"
+      ],
+      "imagem": "../../quarto.png"
+    },
+    "alimentacao": {
+      "produtos": [
+        "mamadeiras",
+        "esterilizador",
+        "cadeira de alimentação",
+        "bule para chá",
+        "pratos e talheres"
+      ],
+      "imagem": "../../alimentacao.png"
+    },
+    "vestuario": {
+      "produtos": [
+        "body",
+        "meias",
+        "macacões",
+        "chapéus",
+        "sacos de dormir"
+      ],
+      "imagem": "../../vestuario.png"
+    },
+    "brinquedos": {
+      "produtos": [
+        "chocalhos",
+        "ursinhos de pelúcia",
+        "móbiles",
+        "blocos de montar",
+        "livros de pano"
+      ],
+      "imagem": "../../brinquedo.png"
+    }
+  }
+}

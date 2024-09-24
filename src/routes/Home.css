@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.Home {
+  width: 100vw;
+  height: auto;
+  background-color: #dfe6e9;
+}
+
+.capa {
+  width: 100%;
+  height: auto;
+  position: relative; /* Make the parent container relative */
+}
+
+.filter-capa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Height will be set dynamically in React */
+}
+
+.img-capa {
+  width: 100%;
+  height: auto;
+  display: block; /* Remove bottom space caused by inline-block */
+}
+
+.title-png {
+  width: 240px;
+  margin-top: 100px;
+}
+.subtitle{
+  color: white;
+  padding: 10px 20px;
+  border: 1px white solid;
+  font-family: "Kanit", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Updated media query */
+@media (min-width: 769px) {
+  .filter-capa{
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  .title-png {
+    width: 20%;
+    margin-top: 50px;
+  }
+  .subtitle{
+    border: 1px white solid;
+  }
+}
